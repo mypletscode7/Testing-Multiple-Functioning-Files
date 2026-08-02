@@ -1,1 +1,111 @@
+.about {
 
+
+background:
+rgba(255,77,109,0.32);
+
+
+padding:120px 10%;
+
+
+overflow:hidden;
+
+
+}
+
+
+
+.about-content {
+
+
+text-align:right;
+
+
+}
+
+
+
+.about h2 {
+
+
+font-size:70px;
+
+font-weight:900;
+
+color:white;
+
+
+animation:
+slideTitle 2s ease forwards;
+
+
+}
+
+
+
+.about h2 span {
+
+
+color:#CC2F4E;
+
+
+}
+
+
+
+
+.about p {
+
+
+font-size:28px;
+
+font-weight:bold;
+
+color:white;
+
+line-height:1.5;
+
+
+}
+
+
+
+.about p span {
+
+
+color:#CC2F4E;
+
+
+}
+
+
+
+
+@keyframes slideTitle {
+
+
+0%{
+
+transform:translateX(-300px);
+
+}
+
+
+
+80%{
+
+transform:translateX(40px);
+
+}
+
+
+
+100%{
+
+transform:translateX(0);
+
+}
+
+
+
+}
