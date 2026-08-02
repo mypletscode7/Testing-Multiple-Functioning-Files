@@ -139,3 +139,46 @@ transition:0.3s;
 transform:scale(1.08);
 
 }
+.confetti {
+
+position:fixed;
+
+width:8px;
+
+height:8px;
+
+border-radius:50%;
+
+animation:explode 0.5s forwards;
+
+z-index:999;
+
+
+}
+
+
+
+@keyframes explode {
+
+
+from{
+
+transform:translateY(0);
+
+}
+
+
+to{
+
+
+transform:
+translateY(-150px)
+translateX(calc(-100px + 200px * random()));
+
+opacity:0;
+
+
+}
+
+
+}
